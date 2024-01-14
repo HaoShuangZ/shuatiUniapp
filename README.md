@@ -23,6 +23,8 @@ UI框架 uni-app进行创建
 以便于在HbuildX中进行热编译映射到微信小程序开发工具中进行查看运行项目效果
 
 适用于毕设、私活、刷题小程序、uniapp、刷题H5
+本仓库只提供前端代码
+wx(zxsnlgq) qq(302574487)
 
 | <img src=".\readmeImg\xcx.png" style="zoom:50%;" /> | <img src=".\readmeImg\wx.png" style="zoom:50%;" /> | <img src=".\readmeImg\qq.png" style="zoom:50%;" /> |
 | ------------------------ | ----------------------- | ----------------------- |
