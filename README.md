@@ -24,7 +24,7 @@ UI框架 uni-app进行创建
 
 适用于毕设、私活、刷题小程序、uniapp、刷题H5
 
-| ![](.\readmeImg\xcx.png) | ![](.\readmeImg\wx.png) | ![](.\readmeImg\qq.png) |
+| <img src=".\readmeImg\xcx.png" style="zoom:50%;" /> | <img src=".\readmeImg\wx.png" style="zoom:50%;" /> | <img src=".\readmeImg\qq.png" style="zoom:50%;" /> |
 | ------------------------ | ----------------------- | ----------------------- |
 
 
@@ -41,9 +41,9 @@ UI框架 uni-app进行创建
 
 后台管理
 
-| ![](.\readmeImg\a1.png) | ![](.\readmeImg\a2.png) |
+| <img src=".\readmeImg\a1.png" style="zoom:50%;" />() | <img src=".\readmeImg\a2.png" style="zoom:50%;" />|
 | ----------------------- | ----------------------- |
-| ![](.\readmeImg\a4.png) | ![](.\readmeImg\a5.png) |
-| ![](.\readmeImg\a7.png) |                         |
-|                         |                         |
+| <img src=".\readmeImg\a4.png" />() | <img src=".\readmeImg\a5.png" /> |
+| <img src=".\readmeImg\a7.png" />|                         |
+
 
