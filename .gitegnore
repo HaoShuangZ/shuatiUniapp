@@ -1,0 +1,7 @@
+node_modules/
+.project
+unpackage/
+.DS_Store
+config.js
+unpackage
+uni_modules

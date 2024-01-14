@@ -1,0 +1,89 @@
+/* 水平间距 */
+/* 水平间距 */
+/*
+ 以下变量是默认值，如不需要修改可以不用给下面的变量重新赋值
+ */
+/* 水平间距 */
+.vcode-input-body[data-v-70bb045c] {
+  margin-left: -1.125rem;
+  margin-right: -1.125rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.vcode-input-item[data-v-70bb045c] {
+  width: 2.375rem;
+  height: 2.375rem;
+  margin-left: 0.375rem;
+  margin-right: 0.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  font-weight: 500;
+}
+.vcode-input-border[data-v-70bb045c] {
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-radius: 0.125rem;
+}
+.vcode-input-line[data-v-70bb045c] {
+  border-bottom-style: solid;
+  border-bottom-width: 0.0625rem;
+}
+.hidden-input[data-v-70bb045c] {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  overflow: hidden;
+}
+.cdKey {
+  padding: 30px;
+  box-sizing: border-box;
+}
+.cdKey .cdKey_input {
+  margin: 0.9375rem 0;
+}
+.cdKey .cdKey_btn uni-button {
+  width: 21.4375rem;
+  height: 2.59375rem;
+  background: #4674F6;
+  border-radius: 3.375rem 3.375rem 3.375rem 3.375rem;
+  font-size: 0.96875rem;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.cdKey .cdKey_info {
+  margin: 1.875rem 0;
+}
+.cdKey .cdKey_info .title {
+  font-size: 0.96875rem;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+  color: #666666;
+  line-height: 1.125rem;
+  margin-bottom: 0.3125rem;
+}
+.cdKey .cdKey_info .text {
+  font-size: 0.71875rem;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+  color: #666666;
+  line-height: 1.53125rem;
+}
+.vcode-input-item {
+  width: 2.96875rem !important;
+  height: 3.8125rem !important;
+  background: #fff !important;
+  border-radius: 0.375rem 0.375rem 0.375rem 0.375rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.75rem;
+  color: #4674F6;
+  font-weight: bold;
+}

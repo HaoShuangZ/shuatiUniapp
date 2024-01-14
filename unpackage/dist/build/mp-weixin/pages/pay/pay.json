@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "会员开通",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#28241C",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uni-segmented-control": "../../uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control"
+  }
+}

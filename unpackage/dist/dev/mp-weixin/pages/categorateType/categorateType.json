@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "章节练习",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-list-item": "../../uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-collapse-item": "../../uni_modules/uni-collapse/components/uni-collapse-item/uni-collapse-item",
+    "uni-collapse": "../../uni_modules/uni-collapse/components/uni-collapse/uni-collapse",
+    "uni-list": "../../uni_modules/uni-list/components/uni-list/uni-list"
+  }
+}

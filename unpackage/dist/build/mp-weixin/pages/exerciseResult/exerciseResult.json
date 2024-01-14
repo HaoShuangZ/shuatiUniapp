@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "练习成绩",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#5289f6",
+  "usingComponents": {}
+}

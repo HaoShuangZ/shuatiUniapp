@@ -1,0 +1,1 @@
+<view><view><block wx:if="{{a}}"><uni-list wx:for="{{b}}" wx:for-item="item" wx:key="d" u-s="{{['d']}}" u-i="{{item.e}}" bind:__l="__l"><uni-list-item wx:if="{{item.a}}" u-i="{{item.b}}" bind:__l="__l" u-p="{{item.c}}"/></uni-list></block><view wx:else>暂无数据</view></view></view>

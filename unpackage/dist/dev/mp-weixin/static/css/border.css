@@ -1,0 +1,109 @@
+// 默认边框色
+$border: #e4e7ed;
+
+// nvue端
+/*
+此处加上!important并是因为目前*.nvue页面编译到H5时，
+App.vue的样式会被uni-app的view元素的自带border属性覆盖，导致无效，
+所以为了多端兼容，必须要加上!important
+App端兼容性较好，直接使用0.5px去实现细边框，不使用伪元素形式实现
+*/
+/* #ifdef APP-NVUE */
+.border {
+	border-width: 0.5px !important;
+	border-color: $border !important;
+	border-style: solid;
+}
+
+.border-t {
+	border-top-width: 0.5px !important;
+	border-color: $border !important;
+	border-top-style: solid;
+}
+
+.border-l {
+	border-left-width: 0.5px !important;
+	border-color: $border !important;
+	border-left-style: solid;
+}
+
+.border-r {
+	border-right-width: 0.5px !important;
+	border-color: $border !important;
+	border-right-style: solid;
+}
+
+.border-b {
+	border-bottom-width: 0.5px !important;
+	border-color: $border !important;
+	border-bottom-style: solid;
+}
+
+.border-tb {
+	border-top-width: 0.5px !important;
+	border-bottom-width: 0.5px !important;
+	border-color: $border !important;
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
+
+/* #endif */
+
+
+// 非nvue端
+/* #ifndef APP-NVUE */
+.border,
+.border-b,
+.border-l,
+.border-r,
+.border-t,
+.border-tb {
+	position: relative;
+}
+
+.border-b:after,
+.border-l:after,
+.border-r:after,
+.border-tb:after,
+.border-t:after,
+.border:after {
+	content: ' ';
+	position: absolute;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	box-sizing: border-box;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	width: 200%;
+	height: 200%;
+	transform: scale(0.5, 0.5);
+	border: 0 solid $border;
+	z-index: 1;
+}
+
+.border-t:after {
+	border-top-width: 1px;
+}
+
+.border-l:after {
+	border-left-width: 1px;
+}
+
+.border-r:after {
+	border-right-width: 1px;
+}
+
+.border-b:after {
+	border-bottom-width: 1px;
+}
+
+.border-tb:after {
+	border-width: 1px 0;
+}
+
+.border:after {
+	border-width: 1px;
+}
+
+/* #endif */

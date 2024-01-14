@@ -1,0 +1,50 @@
+{
+	"name": "brush-question",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "npm run dev:h5",
+		"prod": "npm run dev:prod",
+		"build": "npm run build:h5",
+		"build:test": "cross-env NODE_ENV=development UNI_PLATFORM=h5 vue-cli-service uni-build",
+		"build:h5": "cross-env NODE_ENV=production UNI_PLATFORM=h5 vue-cli-service uni-build",
+		"dev:h5": "cross-env NODE_ENV=development UNI_PLATFORM=h5 vue-cli-service uni-serve",
+		"dev:prod": "cross-env NODE_ENV=production UNI_PLATFORM=h5 vue-cli-service uni-serve"
+	},
+	"dependencies": {
+		"crypto-js": "^4.1.1",
+		"image-tools": "^1.4.0",
+		"jsencrypt": "^3.3.2",
+		"jweixin-module": "^1.6.0",
+		"pinia": "^2.0.35"
+	},
+	"devDependencies": {
+		"@dcloudio/types": "*",
+		"@dcloudio/uni-automator": "^2.0.1-33920220314002",
+		"@dcloudio/uni-cli-i18n": "^2.0.1-33920220314002",
+		"@dcloudio/uni-cli-shared": "^2.0.1-33920220314002",
+		"@dcloudio/uni-migration": "^2.0.1-33920220314002",
+		"@dcloudio/uni-template-compiler": "^2.0.1-33920220314002",
+		"@dcloudio/vue-cli-plugin-hbuilderx": "^2.0.1-33920220314002",
+		"@dcloudio/vue-cli-plugin-uni": "^2.0.1-33920220314002",
+		"@dcloudio/vue-cli-plugin-uni-optimize": "^2.0.1-33920220314002",
+		"@dcloudio/webpack-uni-mp-loader": "^2.0.1-33920220314002",
+		"@dcloudio/webpack-uni-pages-loader": "^2.0.1-33920220314002",
+		"@vue/cli-plugin-babel": "^4.5.0",
+		"@vue/cli-service": "^4.5.0",
+		"babel-plugin-import": "^1.13.3",
+		"cross-env": "^7.0.3",
+		"jest": "^25.5.4",
+		"mini-types": "*",
+		"miniprogram-api-typings": "*",
+		"postcss-comment": "^2.0.0",
+		"vue-template-compiler": "^2.6.11"
+	},
+	"browserslist": [
+		"Android >= 4",
+		"ios >= 8"
+	],
+	"uni-app": {
+		"scripts": {}
+	}
+}

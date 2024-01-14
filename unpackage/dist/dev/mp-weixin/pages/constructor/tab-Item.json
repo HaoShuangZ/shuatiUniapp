@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cc-share-menu": "../../uni_modules/cc-shareMenu/components/cc-shareMenu/cc-shareMenu"
+  }
+}

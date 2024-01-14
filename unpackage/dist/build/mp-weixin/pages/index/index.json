@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "刷题通",
+  "usingComponents": {
+    "uni-segmented-control": "../../uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control",
+    "uni-section": "../../uni_modules/uni-section/components/uni-section/uni-section",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "ksp-cropper": "../../components/Ksp-Cropper/index"
+  }
+}

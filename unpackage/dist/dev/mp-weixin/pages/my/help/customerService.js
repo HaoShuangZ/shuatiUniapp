@@ -1,0 +1,1 @@
+"use strict";const r=require("../../../common/vendor.js"),o={};function s(e,t){return{a:r.o((...c)=>e.copyWechat&&e.copyWechat(...c))}}const n=r._export_sfc(o,[["render",s],["__scopeId","data-v-ffdba9d3"],["__file","C:/Users/sygen/Documents/HBuilderProjects/brushQuestion-front/pages/my/help/customerService.vue"]]);wx.createPage(n);

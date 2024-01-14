@@ -1,0 +1,43 @@
+/* 水平间距 */
+/* 水平间距 */
+/*
+ 以下变量是默认值，如不需要修改可以不用给下面的变量重新赋值
+ */
+/* 水平间距 */
+.container[data-v-1426e218] {
+  background-color: #ffffff;
+}
+.container .content-item[data-v-1426e218] {
+  display: flex;
+  height: 5rem;
+  margin-left: 0.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ABABAB;
+}
+.container .text .text-title[data-v-1426e218] {
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.container .text .text-num[data-v-1426e218] {
+  margin-top: 0.625rem;
+  color: #999999;
+  font-size: 0.75rem;
+}
+.container .btn[data-v-1426e218] {
+  margin: 0 0.625rem;
+  border: 1px solid #4674F6;
+  color: #4674F6;
+  width: 4.6875rem;
+  height: 1.5625rem;
+  line-height: 1.5625rem;
+  text-align: center;
+  border-radius: 1.25rem;
+}

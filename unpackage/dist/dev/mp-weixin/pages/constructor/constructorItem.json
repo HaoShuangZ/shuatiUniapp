@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "一级建造师",
+  "usingComponents": {
+    "tab-item": "./tab-Item",
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}

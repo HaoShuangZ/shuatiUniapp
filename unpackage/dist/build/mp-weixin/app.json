@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/question/question",
+    "pages/constructor/constructor",
+    "pages/constructor/constructorItem",
+    "pages/subject/subject",
+    "pages/notes/myNotes",
+    "pages/my/help/help",
+    "pages/my/help/customerService",
+    "pages/document/document",
+    "pages/wrong/index",
+    "pages/my/my",
+    "pages/my/setting",
+    "pages/my/cdKey/cdKey",
+    "pages/login/login",
+    "pages/answer/index",
+    "pages/vip/vip",
+    "pages/addErrorQuestion/index",
+    "pages/examination/index",
+    "pages/examination/examination",
+    "pages/examination/examScores",
+    "pages/docView/docView",
+    "pages/index/search",
+    "pages/pay/pay",
+    "pages/questionType/questionType",
+    "pages/categorateType/categorateType",
+    "pages/index/docSearch",
+    "pages/onlineLearning/onlineLearning",
+    "pages/my/myCollect/myCollect",
+    "pages/my/docDownList/docDownList",
+    "pages/my/errQuestionList/errQuestionList",
+    "pages/my/searchHistory/searchHistory",
+    "pages/exerciseResult/exerciseResult"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#F7F7F7",
+    "color": "#000000",
+    "selectedColor": "#07C160",
+    "list": [
+      {
+        "iconPath": "static/tabBar/home-icon-unactive.png",
+        "selectedIconPath": "static/tabBar/home-icon-active.png",
+        "text": "搜题",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "static/tabBar/question-icon-unactive.png",
+        "selectedIconPath": "static/tabBar/question-icon-active.png",
+        "text": "刷题",
+        "pagePath": "pages/question/question"
+      },
+      {
+        "iconPath": "static/tabBar/file-icon-unactive.png",
+        "selectedIconPath": "static/tabBar/file-icon-active.png",
+        "text": "文档",
+        "pagePath": "pages/document/document"
+      },
+      {
+        "iconPath": "static/tabBar/my-icon-unactive.png",
+        "selectedIconPath": "static/tabBar/my-icon-active.png",
+        "text": "我的",
+        "pagePath": "pages/my/my"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

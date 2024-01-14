@@ -1,0 +1,1 @@
+<view class="container"><view wx:for="{{a}}" wx:for-item="item" wx:key="d"><uni-list u-s="{{['d']}}" u-i="{{item.c}}" bind:__l="__l"><uni-list-item wx:if="{{item.b}}" u-i="{{item.a}}" bind:__l="__l" u-p="{{item.b}}"/></uni-list></view><view wx:if="{{b}}"><text>暂无消息</text></view></view>

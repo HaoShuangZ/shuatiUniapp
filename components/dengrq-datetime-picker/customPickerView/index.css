@@ -1,0 +1,19 @@
+.picker-view {
+  height: 356rpx;
+}
+
+.picker-view-column {
+  font-size: 14px;
+  line-height: 34px;
+  text-align: center;
+  color: #333;
+}
+
+/* 覆盖默认样式，样式可以按需自己改 */
+.uni-picker-view-indicator {
+  background-color: rgba(106, 123, 255, 0.1);
+}
+.uni-picker-view-indicator::before,
+.uni-picker-view-indicator::after {
+  content: none;
+}

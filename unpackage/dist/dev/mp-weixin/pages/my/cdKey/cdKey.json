@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "邀请码激活",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "vcode-input": "../../../components/vcode-input/vcode-input"
+  }
+}

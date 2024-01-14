@@ -1,0 +1,42 @@
+/* 水平间距 */
+/* 水平间距 */
+/*
+ 以下变量是默认值，如不需要修改可以不用给下面的变量重新赋值
+ */
+/* 水平间距 */
+.customerService .header[data-v-ffdba9d3] {
+  background-color: #4c7cf6;
+  height: 40vh;
+}
+.customerService .content[data-v-ffdba9d3] {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3.125rem 0 6.25rem 0;
+  margin: -15.625rem 1.25rem;
+  background-color: #fff;
+  border-radius: 0.9375rem;
+  justify-content: center;
+  text-align: center;
+}
+.customerService .content .login-img[data-v-ffdba9d3] {
+  width: 3.75rem;
+  height: 3.75rem;
+  margin-top: -4.6875rem;
+  border-radius: 50%;
+}
+.customerService .content .text[data-v-ffdba9d3] {
+  width: 100%;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.customerService .content .text-wechart[data-v-ffdba9d3] {
+  width: 100%;
+  padding: 0 0.625rem;
+  color: #666666;
+  font-size: 0.8125rem;
+}
+.customerService .content .box[data-v-ffdba9d3] {
+  border: 1px solid;
+  width: 9.375rem;
+  height: 9.375rem;
+}

@@ -1,0 +1,1 @@
+<view class="container data-v-792c16f6"><view wx:for="{{a}}" wx:for-item="item" wx:key="c" class="content-item data-v-792c16f6"><view class="text data-v-792c16f6"><view class="text-title data-v-792c16f6">{{item.a}}</view><view class="text-num data-v-792c16f6">80道错题</view></view><view class="btn data-v-792c16f6" bindtap="{{item.b}}">练习</view></view></view>

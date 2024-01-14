@@ -1,0 +1,57 @@
+/* 水平间距 */
+/* 水平间距 */
+/*
+ 以下变量是默认值，如不需要修改可以不用给下面的变量重新赋值
+ */
+/* 水平间距 */
+.help {
+  height: 100%;
+  color: #333;
+  font-size: 0.96875rem;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+}
+.help .help_content .title {
+  padding: 0.78125rem 0.9375rem 0 0.9375rem;
+  box-sizing: border-box;
+}
+.help .help_content .title span {
+  display: inline-block;
+  width: 0.125rem;
+  height: 0.90625rem;
+  background: #4674F6;
+  border-radius: 0 0 0 0;
+  opacity: 1;
+  margin-right: 0.9375rem;
+}
+.help .help_content .help_item {
+  border-bottom: 1px solid #ABABAB;
+  padding: 0 0.9375rem;
+  box-sizing: border-box;
+  height: 3.375rem;
+  line-height: 3.375rem;
+}
+.help .help_btn {
+  height: 5.84375rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #ABABAB;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+}
+.help .help_btn uni-button {
+  width: 21.46875rem;
+  height: 2.59375rem;
+  background: #4674F6;
+  border-radius: 3.375rem 3.375rem 3.375rem 3.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.96875rem;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+}

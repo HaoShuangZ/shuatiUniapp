@@ -1,0 +1,1 @@
+<view class="help"><view class="help_content"><view class="title"><label></label> 常见问题 </view><view class="help_item"> 语音输入怎么使用？ </view><view class="help_item"> 头像昵称怎么修改? </view><view class="help_item"> 题库如何练习？ </view></view><view class="help_btn"><button bindtap="{{a}}">联系客服</button></view></view>

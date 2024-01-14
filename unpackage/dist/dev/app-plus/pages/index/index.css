@@ -1,0 +1,511 @@
+/* 水平间距 */
+/* 水平间距 */
+/*
+ 以下变量是默认值，如不需要修改可以不用给下面的变量重新赋值
+ */
+/* 水平间距 */
+.segmented-control[data-v-86aa1171] {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  height: 36px;
+  overflow: hidden;
+}
+.segmented-control__item[data-v-86aa1171] {
+  display: inline-flex;
+  box-sizing: border-box;
+  position: relative;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.segmented-control__item--button[data-v-86aa1171] {
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 0;
+}
+.segmented-control__item--button--first[data-v-86aa1171] {
+  border-left-width: 1px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.segmented-control__item--button--last[data-v-86aa1171] {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.segmented-control__item--text[data-v-86aa1171] {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding: 6px 0;
+}
+.segmented-control__text[data-v-86aa1171] {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+/* 水平间距 */
+/* 水平间距 */
+/*
+ 以下变量是默认值，如不需要修改可以不用给下面的变量重新赋值
+ */
+/* 水平间距 */
+.uni-section[data-v-637fd36b] {
+  background-color: #fff;
+}
+.uni-section .uni-section-header[data-v-637fd36b] {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 10px;
+  font-weight: normal;
+}
+.uni-section .uni-section-header__decoration[data-v-637fd36b] {
+  margin-right: 6px;
+  background-color: #4674f6;
+}
+.uni-section .uni-section-header__decoration.line[data-v-637fd36b] {
+  width: 4px;
+  height: 12px;
+  border-radius: 10px;
+}
+.uni-section .uni-section-header__decoration.circle[data-v-637fd36b] {
+  width: 8px;
+  height: 8px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.uni-section .uni-section-header__decoration.square[data-v-637fd36b] {
+  width: 8px;
+  height: 8px;
+}
+.uni-section .uni-section-header__content[data-v-637fd36b] {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: #333;
+}
+.uni-section .uni-section-header__content .distraction[data-v-637fd36b] {
+  flex-direction: row;
+  align-items: center;
+}
+.uni-section .uni-section-header__content-sub[data-v-637fd36b] {
+  margin-top: 2px;
+}
+.uni-section .uni-section-header__slot-right[data-v-637fd36b] {
+  font-size: 14px;
+}
+.uni-section .uni-section-content[data-v-637fd36b] {
+  font-size: 14px;
+}
+/* 水平间距 */
+/* 水平间距 */
+/*
+ 以下变量是默认值，如不需要修改可以不用给下面的变量重新赋值
+ */
+/* 水平间距 */
+.uni-popup[data-v-4dd3c44b] {
+  position: fixed;
+  z-index: 99;
+}
+.uni-popup.top[data-v-4dd3c44b], .uni-popup.left[data-v-4dd3c44b], .uni-popup.right[data-v-4dd3c44b] {
+  top: 0;
+}
+.uni-popup .uni-popup__wrapper[data-v-4dd3c44b] {
+  display: block;
+  position: relative;
+  /* iphonex 等安全区设置，底部安全区适配 */
+}
+.uni-popup .uni-popup__wrapper.left[data-v-4dd3c44b], .uni-popup .uni-popup__wrapper.right[data-v-4dd3c44b] {
+  padding-top: 0;
+  flex: 1;
+}
+.fixforpc-z-index[data-v-4dd3c44b] {
+  z-index: 999;
+}
+.fixforpc-top[data-v-4dd3c44b] {
+  top: 0;
+}
+
+.panel[data-v-ea78cbfb] {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		bottom: 0;
+		z-index: 1000;
+		overflow: hidden;
+}
+.canvas[data-v-ea78cbfb] {
+		position: absolute;
+		top: 5000px;
+		left: 5000px;
+}
+.toolbar[data-v-ea78cbfb] {
+		position: absolute;
+		width: 100%;
+		height: 3.125rem;
+		left: 0;
+		bottom: 0;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+}
+.btn-cancel[data-v-ea78cbfb] {
+		font-size: 1.25rem;
+		color: #d5dfe5;
+		font-weight: bold;
+}
+.btn-ok[data-v-ea78cbfb] {
+		font-size: 1.25rem;
+		color: #FFFFFF;
+		font-weight: bold;
+}
+.btn-rotate[data-v-ea78cbfb] {
+		font-size: 1.25rem;
+		color: #d5dfe5;
+		font-weight: bold;
+}
+.body[data-v-ea78cbfb] {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background: black;
+		overflow: hidden;
+}
+.mask[data-v-ea78cbfb] {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background: black;
+		opacity: 0.4;
+}
+.plank[data-v-ea78cbfb] {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+}
+.image-wrap[data-v-ea78cbfb] {
+		position: absolute;
+}
+.image-rect[data-v-ea78cbfb] {
+		position: absolute;
+}
+.image[data-v-ea78cbfb] {
+		position: absolute;
+}
+.frame[data-v-ea78cbfb] {
+		position: absolute;
+		left: 100px;
+		top: 100px;
+		width: 200px;
+		height: 200px;
+}
+.rect[data-v-ea78cbfb] {
+		position: absolute;
+		left: -2px;
+		top: -2px;
+		width: 100%;
+		height: 100%;
+		border: 2px solid white;
+		overflow: hidden;
+		box-sizing: content-box;
+}
+.line-one[data-v-ea78cbfb] {
+		position: absolute;
+		width: 100%;
+		height: 1px;
+		background: white;
+		left: 0;
+		top: 33.3%;
+		box-sizing: content-box;
+}
+.line-two[data-v-ea78cbfb] {
+		position: absolute;
+		width: 100%;
+		height: 1px;
+		background: white;
+		left: 0;
+		top: 66.7%;
+		box-sizing: content-box;
+}
+.line-three[data-v-ea78cbfb] {
+		position: absolute;
+		width: 1px;
+		height: 100%;
+		background: white;
+		top: 0;
+		left: 33.3%;
+		box-sizing: content-box;
+}
+.line-four[data-v-ea78cbfb] {
+		position: absolute;
+		width: 1px;
+		height: 100%;
+		background: white;
+		top: 0;
+		left: 66.7%;
+		box-sizing: content-box;
+}
+.frame-left-top[data-v-ea78cbfb] {
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		left: -6px;
+		top: -6px;
+		border-left: 4px solid red;
+		border-top: 4px solid red;
+		box-sizing: content-box;
+}
+.frame-left-bottom[data-v-ea78cbfb] {
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		left: -6px;
+		bottom: -6px;
+		border-left: 4px solid red;
+		border-bottom: 4px solid red;
+		box-sizing: content-box;
+}
+.frame-right-top[data-v-ea78cbfb] {
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		right: -6px;
+		top: -6px;
+		border-right: 4px solid red;
+		border-top: 4px solid red;
+		box-sizing: content-box;
+}
+.frame-right-bottom[data-v-ea78cbfb] {
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		right: -6px;
+		bottom: -6px;
+		border-right: 4px solid red;
+		border-bottom: 4px solid red;
+		box-sizing: content-box;
+}
+.transit[data-v-ea78cbfb] {
+		transition: width 0.3s, height 0.3s, left 0.3s, top 0.3s, transform 0.3s;
+}
+
+/* 水平间距 */
+/* 水平间距 */
+/*
+ 以下变量是默认值，如不需要修改可以不用给下面的变量重新赋值
+ */
+/* 水平间距 */
+.container {
+  height: 100vh;
+  overflow-y: auto;
+  font-size: 14px;
+  line-height: 24px;
+}
+.container .title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.9375rem;
+}
+.container .text-title {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: Inter-Bold, Inter;
+}
+.container .img-title {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.container .messag-text {
+  margin: 0.625rem 0;
+}
+.container .search-img {
+  height: 10rem;
+  width: 90vw;
+}
+.container .text-file-search {
+  display: flex;
+}
+.container .text-file-search .search-two {
+  height: 6.8125rem;
+}
+.container .example-body {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+.container .content {
+  display: flex;
+  margin: 0 0.625rem;
+  flex-wrap: nowrap;
+  background-color: #fff;
+  border-radius: 0.625rem;
+  min-height: 15.625rem;
+}
+.container .content .doc,
+.container .content .ans {
+  height: auto;
+  overflow-y: auto;
+  justify-content: center;
+  padding: 0 0.625rem;
+}
+.container .content .ans-item {
+  height: 3.125rem;
+  display: flex;
+  align-items: center;
+}
+.container .content .img-box {
+  margin: 0 0.9375rem;
+  align-items: center;
+  display: flex;
+}
+.container .content .img-box .ans-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.container .content .ans-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .content .ans-item {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.container .content .ans-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  font-size: 0.875rem;
+  color: #000000;
+  font-weight: bold;
+}
+.container .content .ans-text {
+  display: flex;
+  align-items: center;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  font-size: 0.78125rem;
+  color: #999999;
+  margin-right: 0.625rem;
+}
+.container .content .text-icon {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+.container .content .doc-item {
+  display: flex;
+  height: 3.75rem;
+  padding: 0 0.625rem;
+}
+.container .content .doc-item .doc-img {
+  height: 3.75rem;
+  margin-top: 0.625rem;
+}
+.container .content .doc-item .doc-content {
+  width: 17.1875rem;
+  height: 3.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.625rem;
+}
+.container .content .doc-item .doc-content .item-title {
+  margin-left: 0.625rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  width: 100%;
+}
+.container .content .doc-item .doc-content .item-tags {
+  margin-left: 0.625rem;
+  font-size: 0.78125rem;
+  color: #666666;
+}
+.container .content .doc-item .doc-content .download-num {
+  width: 100%;
+  margin-left: 0.625rem;
+}
+.container .content-text {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #666;
+}
+.container .color-tag {
+  width: 0.78125rem;
+  height: 0.78125rem;
+}
+.container .uni-list {
+  flex: 1;
+}
+.container .uni-list-item {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.container .uni-list-item__container {
+  padding: 0.375rem 0.46875rem;
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #eee;
+}
+.container .uni-list-item__content-title {
+  font-size: 14px;
+}
+.container .uni-section {
+  background-color: none;
+}
+.container .popup-content {
+  flex-wrap: wrap;
+  padding: 15px;
+  height: 80vh;
+  overflow-y: auto;
+  background-color: #fff;
+}
+.container .popup-content .popup-text {
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.container .popup-content .question-title {
+  flex-direction: row;
+  font-size: 1.0625rem;
+  align-items: flex-start;
+}
+.container .popup-content .question-item {
+  display: flex;
+  font-size: 0.9375rem;
+  width: 100%;
+}
+.container .popup-content .right-item {
+  display: flex;
+  width: 100%;
+  font-size: 0.9375rem;
+}
+.container .question-title {
+  font-size: 0.9375rem;
+  font-weight: 600;
+}

@@ -1,0 +1,1 @@
+"use strict";const n={"uni-countdown.day":"day","uni-countdown.h":"h","uni-countdown.m":"m","uni-countdown.s":"s"},o={"uni-countdown.day":"天","uni-countdown.h":"时","uni-countdown.m":"分","uni-countdown.s":"秒"},u={"uni-countdown.day":"天","uni-countdown.h":"時","uni-countdown.m":"分","uni-countdown.s":"秒"},t={en:n,"zh-Hans":o,"zh-Hant":u};exports.messages=t;

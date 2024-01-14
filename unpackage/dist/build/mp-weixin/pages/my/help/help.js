@@ -1,0 +1,1 @@
+"use strict";const e=require("../../../common/vendor.js"),t={data:()=>({}),methods:{helpBtn(){e.index.navigateTo({url:"./customerService"})}}};const n=e._export_sfc(t,[["render",function(t,n,r,o,c,s){return{a:e.o(((...e)=>s.helpBtn&&s.helpBtn(...e)))}}]]);wx.createPage(n);

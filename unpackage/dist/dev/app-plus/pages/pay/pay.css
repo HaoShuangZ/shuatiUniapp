@@ -1,0 +1,219 @@
+/* 水平间距 */
+/* 水平间距 */
+/*
+ 以下变量是默认值，如不需要修改可以不用给下面的变量重新赋值
+ */
+/* 水平间距 */
+.segmented-control[data-v-86aa1171] {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  height: 36px;
+  overflow: hidden;
+}
+.segmented-control__item[data-v-86aa1171] {
+  display: inline-flex;
+  box-sizing: border-box;
+  position: relative;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.segmented-control__item--button[data-v-86aa1171] {
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 0;
+}
+.segmented-control__item--button--first[data-v-86aa1171] {
+  border-left-width: 1px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.segmented-control__item--button--last[data-v-86aa1171] {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.segmented-control__item--text[data-v-86aa1171] {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding: 6px 0;
+}
+.segmented-control__text[data-v-86aa1171] {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+/* 水平间距 */
+/* 水平间距 */
+/*
+ 以下变量是默认值，如不需要修改可以不用给下面的变量重新赋值
+ */
+/* 水平间距 */
+.currentSelectSvip {
+  color: #9F6020 !important;
+  background: linear-gradient(90deg, #E3AE59 0%, #F7E2AF 100%);
+}
+.currentSelectVip {
+  color: #999999 !important;
+  border-radius: 0.625rem;
+  border: 1px solid #4674F6 !important;
+  background: #FAFAFA;
+}
+
+/* 二级菜单设置左右滑动 */
+.uni-swiper-tab {
+  white-space: nowrap;
+}
+.model_scrollx {
+  justify-content: space-between;
+  height: 255px;
+  /* background-color: #F1EFEF; */
+  align-items: center;
+}
+.scrollx_items {
+  border: 1px solid #F2F2F2;
+  border-radius: 0.625rem;
+  display: inline-block;
+  padding: 1.5625rem 0;
+  width: 6.25rem;
+  height: 4.6875rem;
+  margin: 0.3125rem 0.625rem 0.9375rem 0.625rem;
+}
+.scrollx_items .item-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.scrollx_items .iteme-text {
+  font-size: 0.84375rem;
+}
+.scrollx_items .label {
+  font-weight: bold;
+}
+.scrollx_items .label-vip {
+  font-weight: bold;
+  color: #000000;
+}
+.scrollx_items .price-total {
+  color: #9F6020;
+}
+.scrollx_items .price-total-vip {
+  color: #4674F6;
+}
+.scrollx_items .price {
+  color: #999999;
+}
+.scrollx_items .price-vip {
+  color: #999999;
+}
+.scrollx_items .currentSelectColor {
+  color: #9F6020;
+}
+.pay-btn {
+  background: linear-gradient(90deg, #E2AC57 0%, #F7E3B0 100%);
+  margin: 0 0.625rem;
+  border-radius: 1.5625rem;
+}
+.pay-btn-vip {
+  background: #4674F6;
+  color: #fff;
+  margin: 0 0.625rem;
+  border-radius: 1.5625rem;
+}
+.scrollx_items uni-text {
+  display: inline-block;
+}
+.scrollx_items:last-child {
+  margin-right: 0.9375rem;
+}
+.scrollx_items uni-image {
+  width: 2.1875rem;
+  height: 2.0625rem;
+}
+.tgyx_title {
+  font-size: 0.875rem;
+  color: #333333;
+  margin-top: 0.9375rem;
+}
+.tgyx_desc {
+  font-size: 0.75rem;
+  margin-top: 0.3125rem;
+}
+.header {
+  padding-top: 2.43438rem;
+  background-color: #4674f6;
+  color: #fff;
+}
+.content {
+  margin-top: 1.13219rem;
+  width: 100%;
+  border-radius: 1.01906rem 1.01906rem 0 0;
+  height: 85vh;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 1.125rem;
+}
+.content .Equity_list {
+  width: 100%;
+}
+.content .Equity_list .Equity_title {
+  width: 100%;
+  height: 1.5625rem;
+  font-size: 1.125rem;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+  color: #4674F6;
+  text-align: center;
+  line-height: 1.3125rem;
+  margin: 0.71875rem 0;
+}
+.content .Equity_list .Equity_item {
+  width: 100%;
+  height: 2.875rem;
+  background: #F7F7F7;
+  border-radius: 0 0 0 0;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+  box-sizing: border-box;
+}
+.btn {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5.8125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #ABABAB;
+}
+.btn uni-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21.46875rem;
+  height: 2.59375rem;
+  background: #4674F6;
+  border-radius: 3.375rem 3.375rem 3.375rem 3.375rem;
+  opacity: 1;
+  font-size: 0.96875rem;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+}
+.segmented-control__text {
+  color: #fff !important;
+}
+:v-deep .segmented-control__item {
+  color: #fff !important;
+}

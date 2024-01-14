@@ -1,0 +1,1 @@
+.container .uni-row{height:100rpx;line-height:100rpx;display:flex;margin-bottom:20rpx;padding:0 20rpx;background-color:#fff;align-items:center}.container .uni-forms-item{margin-bottom:0}.container .btn-submit{color:#fff;background-color:#4674f6;width:100%;border-radius:50rpx}

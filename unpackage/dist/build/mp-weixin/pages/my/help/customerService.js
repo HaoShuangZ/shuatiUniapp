@@ -1,0 +1,1 @@
+"use strict";const e=require("../../../common/vendor.js"),c={};const o=e._export_sfc(c,[["render",function(c,o){return{a:e.o(((...e)=>c.copyWechat&&c.copyWechat(...e)))}}],["__scopeId","data-v-e9673ea3"]]);wx.createPage(o);

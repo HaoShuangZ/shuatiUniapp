@@ -1,0 +1,376 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"path": {
+		"@/*": [
+			"pages/*"
+		]
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "刷题通"
+			}
+		},
+		{
+			"path": "pages/question/question",
+			"style": {
+				"navigationBarTitleText": "刷题",
+				"enablePullDownRefresh": false
+				// "navigationBarRightButton": {
+				// 	"hide": true
+				// },
+				// "navigationStyle": "custom",
+				// "app-plus": {
+				// 	"titleNView": false
+				// }
+			}
+		},
+		{
+			"path": "pages/document/document",
+			"style": {
+				"navigationBarTitleText": "文档",
+				"enablePullDownRefresh": false
+				// "navigationStyle": "custom",
+				// "app-plus": {
+				// 	"titleNView": false
+				// }
+			}
+
+		},
+		{
+			"path": "pages/constructor/constructor",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"enablePullDownRefresh": false,
+				// "autoBackButton": false,
+				// "navigationBarRightButton": {
+				// 	"hide": true
+				// },
+				// "navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/constructor/constructorItem",
+			"style": {
+				"navigationBarTitleText": "一级建造师"
+			}
+		},
+		{
+			"path": "pages/subject/subject",
+			"style": {
+				"navigationBarTitleText": "切换科目",
+				"backgroundColor": "#ddd"
+			}
+		},
+		{
+			"path": "pages/notes/myNotes",
+			"style": {
+				"navigationBarTitleText": "我的笔记",
+				"backgroundColor": "#ddd"
+			}
+		},
+		{
+			"path": "pages/my/help/help",
+			"style": {
+				"navigationBarTitleText": "帮助中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/help/customerService",
+			"style": {
+				"navigationBarTitleText": "联系客服",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#4c7cf6",
+				"navigationBarTextStyle": "white"
+			}
+		},
+
+		{
+			"path": "pages/wrong/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#4c7cf6",
+				"navigationBarTextStyle": "white"
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/setting",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/cdKey/cdKey",
+			"style": {
+				"navigationBarTitleText": "邀请码激活",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登陆",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/answer/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			},
+			"autoBackButton": false,
+			"navigationBarRightButton": {
+				"hide": true
+			}
+
+		},
+		{
+			"path": "pages/vip/vip",
+			"style": {
+				"navigationBarTitleText": "特权对比",
+				"navigationBarBackgroundColor": "#4674f6",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/addErrorQuestion/index",
+			"style": {
+				"navigationBarTitleText": "试题报错",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/examination/index",
+			"style": {
+				"navigationBarTitleText": "模拟考试",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/examination/examination",
+			"style": {
+				"navigationBarTitleText": "考试",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/examination/examScores",
+			"style": {
+				"navigationBarTitleText": "模拟考试成绩",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/docView/docView",
+			"style": {
+				"navigationBarTitleText": "文档详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "文字搜索",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/questionType/questionType",
+			"style": {
+				"navigationBarTitleText": "题型练习",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/categorateType/categorateType",
+			"style": {
+				"navigationBarTitleText": "章节练习",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/docSearch",
+			"style": {
+				"navigationBarTitleText": "文档搜索",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/onlineLearning/onlineLearning",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/myCollect/myCollect",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/docDownList/docDownList",
+			"style": {
+				"navigationBarTitleText": "文档下载历史",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/errQuestionList/errQuestionList",
+			"style": {
+				"navigationBarTitleText": "全部错题",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/searchHistory/searchHistory",
+			"style": {
+				"navigationBarTitleText": "搜索历史",
+				"enablePullDownRefresh": false
+
+			}
+
+		}, {
+			"path": "pages/exerciseResult/exerciseResult",
+			"style": {
+				"navigationBarTitleText": "练习成绩",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#5289f6"
+			}
+
+		}, {
+			"path": "pages/my/message/message",
+			"style": {
+				"navigationBarTitleText": "我的消息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/examInfo/examInfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/my/userInfoModify",
+			"style": {
+				"navigationBarTitleText": "修改个人信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "components/ad/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/server",
+			"style": {
+				"navigationBarTitleText": "服务条款",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/privacy",
+			"style": {
+				"navigationBarTitleText": "隐私策略",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+	],
+	"subPackages": [{
+		"root": "subPages",
+		"pages": [{
+			"path": "pay/pay",
+			"style": {
+				"navigationBarTitleText": "会员开通",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#28241C",
+				"navigationBarTextStyle": "white"
+			}
+		}]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4",
+			"softinputMode": "adjustResize"
+		}
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#F7F7F7",
+		"color": "#000000",
+		"selectedColor": "#07C160",
+		"list": [{
+				"iconPath": "static/tabBar/home-icon-unactive.png",
+				"selectedIconPath": "static/tabBar/home-icon-active.png",
+				"text": "搜题",
+				"pagePath": "pages/index/index"
+			},
+			{
+				"iconPath": "static/tabBar/question-icon-unactive.png",
+				"selectedIconPath": "static/tabBar/question-icon-active.png",
+				"text": "刷题",
+				"pagePath": "pages/question/question"
+			},
+			{
+				"iconPath": "static/tabBar/file-icon-unactive.png",
+				"selectedIconPath": "static/tabBar/file-icon-active.png",
+				"text": "文档",
+				"pagePath": "pages/document/document"
+			},
+			{
+				"iconPath": "static/tabBar/my-icon-unactive.png",
+				"selectedIconPath": "static/tabBar/my-icon-active.png",
+				"text": "我的",
+				"pagePath": "pages/my/my"
+			}
+
+		]
+	},
+	"condition": {
+
+		//模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

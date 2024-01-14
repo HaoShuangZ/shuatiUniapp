@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),t={onLoad(){let t=e.index.getStorageSync("exerciseResult");this.info=t},data:()=>({info:{}})};const n=e._export_sfc(t,[["render",function(t,n,o,r,i,a){return{a:e.t(i.info.answerRate),b:e.t(i.info.rightNum),c:e.t(i.info.errNum),d:e.t(i.info.total)}}]]);wx.createPage(n);
