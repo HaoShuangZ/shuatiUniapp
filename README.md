@@ -26,26 +26,26 @@ UI框架 uni-app进行创建
 本仓库只提供前端代码
 wx(zxsnlgq) qq(302574487)
 
-| <img src=".\readmeImg\xcx.png" style="zoom:50%;" /> | <img src=".\readmeImg\wx.png" style="zoom:50%;" /> | <img src=".\readmeImg\qq.png" style="zoom:50%;" /> |
+| <img src="./readmeImg/xcx.png" style="zoom:50%;" /> | <img src="./readmeImg/wx.png" style="zoom:50%;" /> | <img src="./readmeImg/qq.png" style="zoom:50%;" /> |
 | ------------------------ | ----------------------- | ----------------------- |
 
 
 
 ### 首页
 
-| <img src=".\readmeImg\1.png" style="zoom:50%;" />  | <img src=".\readmeImg\2.png" style="zoom:50%;" />  | <img src=".\readmeImg\3.png" style="zoom:50%;" />  |
+| <img src="./readmeImg/1.png" style="zoom:50%;" />  | <img src="./readmeImg/2.png" style="zoom:50%;" />  | <img src="./readmeImg/3.png" style="zoom:50%;" />  |
 | -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
-| <img src=".\readmeImg\4.png" style="zoom:50%;" />  | <img src=".\readmeImg\5.png" style="zoom:50%;" />  | <img src=".\readmeImg\6.png" style="zoom:50%;" />  |
-| <img src=".\readmeImg\7.png" style="zoom:50%;" />  | <img src=".\readmeImg\8.png" style="zoom:50%;" />  | <img src=".\readmeImg\9.png" style="zoom:50%;" />  |
-| <img src=".\readmeImg\10.png" style="zoom:50%;" /> | <img src=".\readmeImg\1.png" style="zoom:50%;" />  | <img src=".\readmeImg\12.png" style="zoom:50%;" /> |
-| <img src=".\readmeImg\13.png" style="zoom:50%;" /> | <img src=".\readmeImg\14.png" style="zoom:50%;" /> |                                                    |
+| <img src="./readmeImg/4.png" style="zoom:50%;" />  | <img src="./readmeImg/5.png" style="zoom:50%;" />  | <img src="./readmeImg/6.png" style="zoom:50%;" />  |
+| <img src="./readmeImg/7.png" style="zoom:50%;" />  | <img src="./readmeImg/8.png" style="zoom:50%;" />  | <img src="./readmeImg/9.png" style="zoom:50%;" />  |
+| <img src="./readmeImg/10.png" style="zoom:50%;" /> | <img src="./readmeImg/1.png" style="zoom:50%;" />  | <img src="./readmeImg/12.png" style="zoom:50%;" /> |
+| <img src="./readmeImg/13.png" style="zoom:50%;" /> | <img src="./readmeImg/14.png" style="zoom:50%;" /> |                                                    |
 |                                                    |                                                    |                                                    |
 
 后台管理
 
-| <img src=".\readmeImg\a1.png" style="zoom:50%;" />() | <img src=".\readmeImg\a2.png" style="zoom:50%;" />|
+| <img src="./readmeImg/a1.png" style="zoom:50%;" />() | <img src="./readmeImg/a2.png" style="zoom:50%;" />|
 | ----------------------- | ----------------------- |
-| <img src=".\readmeImg\a4.png" />() | <img src=".\readmeImg\a5.png" /> |
-| <img src=".\readmeImg\a7.png" />|                         |
+| <img src="./readmeImg/a4.png" />() | <img src="./readmeImg/a5.png" /> |
+| <img src="./readmeImg/a7.png" />|                         |
 
 
