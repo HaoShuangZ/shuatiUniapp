@@ -25,6 +25,7 @@ UI框架 uni-app进行创建
 适用于毕设、私活、刷题小程序、uniapp、刷题H5
 本仓库只提供前端代码
 后端是 spring boot + mysql
+联系：
 wx(zxsnlgq) qq(302574487)
 
 | <img src="./readmeImg/xcx.png" style="zoom:50%;" /> | <img src="./readmeImg/wx.png" style="zoom:50%;" /> | <img src="./readmeImg/qq.png" style="zoom:50%;" /> |
