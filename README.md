@@ -4,7 +4,8 @@
 
 ### 原创作品，请尊重原创！
 
-
+### 对应的后端代码 仓库 https://gitee.com/kangxin_java/da-ti-tong
+### 管理端前端代码 仓库 https://github.com/HaoShuangZ/shuatiUniapp-admin
 
 ### 项目依赖
 
